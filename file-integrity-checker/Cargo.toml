@@ -1,0 +1,17 @@
+[package]
+name = "file-integrity-checker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+config = "0.13"
+sha2 = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+walkdir = "2.4"
+lettre = "0.10"
+chrono = "0.4"
+log = "0.4"
+simplelog = "0.12"
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+anyhow = "1.0"

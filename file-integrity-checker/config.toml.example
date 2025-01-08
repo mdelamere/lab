@@ -1,0 +1,19 @@
+[general]
+client_name = "Your Client Name"
+server_name = "Your Server Name"
+wordpress_dir = "/path/to/wordpress"
+baseline_file = "baseline.json"
+
+[notifications]
+send_via = "slack"
+
+[slack]
+webhook_url = "https://hooks.slack.com/services/your-webhook-url"
+
+[email]
+admin_email = "admin@example.com"
+sender_email = "file-checker@example.com"
+smtp_server = "smtp.example.com"
+smtp_port = 587
+smtp_username = "your-smtp-username"
+smtp_password = "your-smtp-password"
